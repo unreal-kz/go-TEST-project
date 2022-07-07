@@ -21,6 +21,6 @@ func readJSONfile(filename string) ([][]string, error) {
 	return nil, errors.New("failed to read the file: " + filename)
 }
 
-func doMarshall() map[string]interface{} {
+// func doMarshall() map[string]interface{} {
 
-}
+// }
